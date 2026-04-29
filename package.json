@@ -1,0 +1,23 @@
+{
+  "name": "fake-profile-detector",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.6.9",
+    "dotenv": "^16.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "server": "node server.js",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead"],
+    "development": ["last 1 chrome version"]
+  }
+}
