@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const FLASK_URL = 'http://localhost:5000/predict';
+const FLASK_URL = 'https://fake-detector1-backend.onrender.com/predict';
 
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
